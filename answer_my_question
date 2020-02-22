@@ -1,0 +1,12 @@
+“What is the effect of the other people’s opinions on a person’s decision of buying a book?”
+
+If we assume that ‘text_reviews_count’ column in our dataset represents the reflection of
+other people’s opinion, and ‘ratings_count’ and ‘average_ratings’ columns represent the person’s
+decision of buying book, we can then reveal their relationship. To do so, we can simply look at their
+correlations. Correlation between ‘text_reviews_count’ and ‘rating_count’ is 0.86, which indicates they are
+highly correlated and therefore it can be concluded that person’s decision of buying a book strongly depends
+on people’s opinion. On the other hand, correlation between ‘text_reviews_count’ and ‘average_rating’ is 0.04,
+which indicates that they are almost independent from each other and therefore it shows person’s decision of
+buying a book does not depend on other people’s opinions. We need to understand data more clearly in order to
+be sure that which column, ‘average_rating’ or ‘ratings_count’, represents a person’s decision of buying a book
+in reality.
